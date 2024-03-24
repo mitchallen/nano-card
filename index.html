@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>nano card demo</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="aframe demo">
+        <meta name="keywords" content="AFrame, JavaScript">
+        <meta name="author" content="Mitch Allen">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body>
+
+    <div diabled class="buttonBar">
+        <button disabled id="btnHelp" type="button" class="button-toolbar">
+            <span class="material-icons md-light md-48">help_outline</span>
+        </button>
+        <button id="btnNext" type="button" class="button-toolbar">
+            <span class="material-icons md-light md-48">navigate_next</span>
+        </button>
+        <button id="btnRandom" type="button" class="button-toolbar">
+            <span class="material-icons md-light md-48">shuffle</span>
+        </button>
+        <button id="btnTeleport" type="button" class="button-toolbar">
+            <span class="material-icons md-light md-48">transfer_within_a_station</span>
+        </button>
+        <button id="btnMusic" type="button" class="button-toolbar">
+            <span class="material-icons md-light md-48">music_note</span>
+        </button>
+        <br />
+        <!-- important to set style display: none here for toggle logic to init correctly -->
+        <iframe id="musicFrame" style="display: none; border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/2ST3CGtI30lWowalNK5lzb?utm_source=generator" width="100%"
+            height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <script type="module" src="./src/app.js"></script>
+    </div>
+
+    <div class="cardMain">
+        <h1 class="cardTitle">Test Card</h1>
+        <p class="cardParagraph">
+            Space, the final frontier. These are the voyages of the starship Enterprise. 
+            Its continuing mission: to explore strange new worlds; to seek out new life 
+            and new civilizations; to boldly go where no one has gone before!
+        </p>
+    </div>
+</body>
+
+</html>

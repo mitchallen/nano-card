@@ -4,6 +4,16 @@ body {
     color: #0FFF50;
     margin: 0;
   }
+
+  .container {
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    /* border-radius: 25px;
+    border: 4px solid lightgray;
+    box-shadow: 5px 5px 10px black; */
+  }
   
   canvas {
     width: 100%;
@@ -11,9 +21,9 @@ body {
   }
   
   .buttonBar {
-    position: absolute;
+    /* position: absolute;
     top: 0px;
-    left: 0px;
+    left: 0px; */
     margin-left: 10px;
     /* font-size: 20px;
       width: 10%;
@@ -21,19 +31,7 @@ body {
       margin-top: 1%;
       margin-left: 1%; */
   }
-  
-  /* .btnHome {
-    font-size: 20px;
-    background-color: #4CAF50;
-    border: 5px solid red;
-  } */
-  
-  /* #btnRandom {
-    font-size: 20px;
-    background-color: #4CAF50;
-    border: 5px solid red;
-  } */
-  
+
   
   /* Rules for sizing the icon. */
   .material-icons.md-18 {
@@ -118,12 +116,13 @@ body {
   }
 
   .cardMain {
-    position: absolute;
+    /* position: absolute;
     top: 80px;
-    left: 0px;
-    width: 400px;
+    left: 0px; */
+    /* width: 400px; */
+    width: 80%;
     padding: 20px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     border-radius: 25px;
     border: 4px solid lightgray;
      /* offset-x | offset-y | blur-radius | color */

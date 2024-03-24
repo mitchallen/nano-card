@@ -10,9 +10,9 @@ body {
     margin: auto;
     margin-top: 10px;
     padding: 10px;
-    /* border-radius: 25px;
+    border-radius: 25px;
     border: 4px solid lightgray;
-    box-shadow: 5px 5px 10px black; */
+    box-shadow: 5px 5px 10px black;
   }
   
   canvas {
@@ -120,7 +120,8 @@ body {
     top: 80px;
     left: 0px; */
     /* width: 400px; */
-    width: 80%;
+    width: 300px;
+    margin: auto;
     padding: 20px;
     /* margin-left: 10px; */
     border-radius: 25px;

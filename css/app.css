@@ -140,6 +140,8 @@ body {
 
   .cardTitle {
     text-transform: uppercase;
+    font-size: 32px;
+    margin-bottom: 20px;
     /* offset-x | offset-y | blur-radius | color */
     /* text-shadow: 2px 2px 4px black; */
   }

@@ -9,7 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./css/app.css">
+    <link id="theme" rel="stylesheet" href="/css/app.css">
+    <script type="module" src="/src/app.js"></script>
 </head>
 
 <body>
@@ -19,14 +20,14 @@
             <button disabled id="btnHelp" type="button" class="button-toolbar">
                 <span class="material-icons md-light md-48">help_outline</span>
             </button>
+            <button id="btnPrev" type="button" class="button-toolbar">
+                <span class="material-icons md-light md-48">chevron_left</span>
+            </button>
             <button id="btnNext" type="button" class="button-toolbar">
-                <span class="material-icons md-light md-48">navigate_next</span>
+                <span class="material-icons md-light md-48">chevron_right</span>
             </button>
             <button id="btnRandom" type="button" class="button-toolbar">
                 <span class="material-icons md-light md-48">shuffle</span>
-            </button>
-            <button id="btnTeleport" type="button" class="button-toolbar">
-                <span class="material-icons md-light md-48">transfer_within_a_station</span>
             </button>
             <button id="btnMusic" type="button" class="button-toolbar">
                 <span class="material-icons md-light md-48">music_note</span>
@@ -41,21 +42,9 @@
             <script type="module" src="./src/app.js"></script>
         </div>
         <br /><br />
-        <div class="cardMain">
-            <h1 class="cardTitle">Test Card</h1>
-            <p class="cardParagraph">
-                Today we live in a society in which spurious realities are manufactured 
-                by the media, by governments, by big corporations, by religious groups,
-                 political groups... So I ask, in my writing, What is real? Because 
-                 unceasingly we are bombarded with pseudo-realities manufactured by very 
-                 sophisticated people using very sophisticated electronic mechanisms. 
-                 I do not distrust their motives; I distrust their power. 
-                 They have a lot of it. And it is an astonishing power: that of creating 
-                 whole universes, universes of the mind. I ought to know. 
-                 I do the same thing. 
-                 <br /><br />
-                 <b>― Philip K. Dick</b>
-            </p>
+        <div id="cardContainer" class="cardMain">
+            <div class="cardTitle">Placeholder</div>
+            <div class="cardParagraph">Placeholder</div>
         </div>
     </div>
 </body>
